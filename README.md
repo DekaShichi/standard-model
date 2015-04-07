@@ -80,9 +80,9 @@ JSON does not support line breaks in strings. Replace any line breaks with \n
     ],
     
     [Optional]
-    "history": "[PARAGRAPH]\n\[PARAGRAPH]",
-    "appearance": "[PARAGRAPH]\n\[PARAGRAPH]",
-    "personality": "[PARAGRAPH]\n\[PARAGRAPH]"
+    "history": "[PARAGRAPH]\n\n[PARAGRAPH]",
+    "appearance": "[PARAGRAPH]\n\n[PARAGRAPH]",
+    "personality": "[PARAGRAPH]\n\n[PARAGRAPH]"
 },
 ...
 }
@@ -133,7 +133,7 @@ JSON does not support line breaks in strings. Replace any line breaks with \n
 [
 {
     "name": "",
-    "icon": "path/to/file",
+    "icon": "",
     "color": "#000000",
     
     "images": [
