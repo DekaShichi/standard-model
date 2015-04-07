@@ -8,7 +8,8 @@ REQUIRED: If implemented, this field needs to exist.
 Optional: If implemented, this field can be omitted entirely.
 Defined: If not implemented, this field will still render/still exist, but be
 replaced with 'undefined'.
-RESERVED: Values that are reserved for the standard-render, e.g. "inches" for height.
+RESERVED: Values that are implemented specially on the render, e.g. "inches" for height
+becomes [feet]'[inches]".
 JSON does not support line breaks in strings. Replace any line breaks with \n
 [
 {
@@ -106,7 +107,6 @@ JSON does not support line breaks in strings. Replace any line breaks with \n
             "value": 0,
             "prop": 0
         },
-        [
         {
             "unit": "centimeters",
             "abbrev": "cm",
