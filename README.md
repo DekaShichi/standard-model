@@ -96,7 +96,7 @@ JSON does not support line breaks in strings. Replace any line breaks with \n
     "icon": "path/to/file",
     "color": "#000000",
     
-    "age": number,
+    "age": 0,
     "species": "",
     "gender": "",
     
