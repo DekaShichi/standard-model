@@ -103,7 +103,7 @@ JSON does not support line breaks in strings. Replace any line breaks with \n
     "height": [
         {
             "unit": "inches",
-            "abbrev": string,
+            "abbrev": "in",
             "value": 0,
             "prop": 0
         },
@@ -111,7 +111,7 @@ JSON does not support line breaks in strings. Replace any line breaks with \n
             "unit": "centimeters",
             "abbrev": "cm",
             "value": 0,
-            "prop": 9
+            "prop": 0
         }
     ],
     "images": [
@@ -137,10 +137,6 @@ JSON does not support line breaks in strings. Replace any line breaks with \n
     "color": "#000000",
     
     "images": [
-        {
-            "icon": "path/to/file",
-            "full": "path/to/file"
-        }
     ]
 }
 ]
