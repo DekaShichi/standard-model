@@ -88,7 +88,7 @@ JSON does not support line breaks in strings. Replace any line breaks with \n
 </code></pre>
 
 ## Raw:
-<code><pre>
+<pre><code>
 [
 {
     "name": "",
@@ -129,7 +129,7 @@ JSON does not support line breaks in strings. Replace any line breaks with \n
 </code></pre>
 
 ## Mininum:
-<code><pre>
+<pre><code>
 [
 {
     "name": "",
