@@ -6,7 +6,7 @@ Character Profiles are to be made as an array of JSON objects in the following f
 <pre><code>
 REQUIRED: If implemented, this field needs to exist.
 Optional: If implemented, this field can be omitted entirely.
-Defined: If not implemented, this field will still be render/still exist, but be
+Defined: If not implemented, this field will still render/still exist, but be
 replaced with 'undefined'.
 RESERVED: Values that are reserved for the standard-render, e.g. "inches" for height.
 JSON does not support line breaks in strings. Replace any line breaks with \n
